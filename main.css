@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, li {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: white;
+}
+h1 {
+    font-size: 135px;
+    color: black;
+}
+nav {
+    padding: 10px;
+    text-align: right;
+}
+header {
+    background-color: lightgray;
+    padding: 40px;
+    text-align: right;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-image: url("image/MN\ Sports\ Logo\ History-logos_white.png");
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1200px;
+}
+a {
+    padding: 10px;
+    margin: 2px;
+    
+    border-radius: 10px;
+    text-decoration: none;
+}
+nav a {
+    background-color: black;
+}
+footer {
+    background-color: lightgray;
+    padding: 40px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 60px;
+    width: 1200px;
+}
+footer p {
+    color: black;
+}
+body {
+    /*max-width: 700px;*/
+    margin: 0px auto;
+}
+div {
+    text-align: right;
+}
+article {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.button-large{
+    padding: 20px;
+    width: 200px;
+    height: 80px;
+    background-color: black;
+    border-radius: 20px;
+    font-size: 60px;
+}
+.form {
+    width: 400px;
+    margin: 20px auto;
+}
+.form input{
+    padding: 10px;
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+}
+div a {
+    margin: 10px auto;
+}
+.logo-links {
+    display: flex;
+    align-items: center;
+}
+.questions {
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+    margin: 0px auto;
+}
+.card {
+    margin: 0px auto;
+    width: 550px;
+    padding: 20px;
+    border-radius: 40px;
+    background-color: lightgray;
+    flex-direction: row;
+}
+.card h2 {
+    color: black;
+    font-size: 30px;
+    padding: 10px;
+}
+.card p {
+    color: black;
+}
+section p {
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
